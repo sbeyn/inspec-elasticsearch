@@ -1,0 +1,12 @@
+name: inspec-elasticsearch
+title: InSpec Profile for elasticsearch
+maintainer: SWIP SOLUTION
+copyright: SWIP SOLUTION
+summary: An InSpec Compliance Profile
+version: 0.1.0
+supports:
+  - os-family: redhat
+depends:
+- name: utils
+  git: https://github.com/sbeyn/inspec-elasticsearch.git
+  tag: v0.1
