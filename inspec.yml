@@ -9,4 +9,3 @@ supports:
 depends:
 - name: utils
   git: https://github.com/sbeyn/inspec-elasticsearch.git
-  tag: v0.1
